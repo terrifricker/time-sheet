@@ -21,21 +21,54 @@
     <form class="identification" action="timesheet.js">
       <fieldset>
         <legend>Personal Identification</legend>
-          <div id="title"></div>
-          <div id="firstname"></div>
-          <div id="lastname"></div>
-          <div id="streetaddress"></div>
-          <div id="city"></div>
-          <div id="state"></div>
-          <div id="zip"></div>
+          <div>
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname">
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" name="lastname">
+          </div>
+          <div>
+            <label for="streetaddress">Street Address</label>
+            <input type="text" id="streetaddress" name="streetaddress">
+          </div>
+          <div>
+            <label for="city">City</label>
+            <input type="text" id="city" name="city">
+            <label for="state">State</label>
+            <input type="text" id="state" name="state">
+            <label for="zip">Zip Code</label>
+            <input type="number" id="zip" name="zip">
+          </div>
           <button>Add another address</button>
-          <div id="email"></div>
-          <button>Add another email</button>
-          <div id="mobile"></div>
-          <button>Add another phone number</button>
-          <div class="id-num" id="id-01"></div>
-          <div class="entity" id="entity-01"></div>
-          <div class="entity-type" id="entity-type-01"></div>
+          <div>
+            <label for="mobile">Phone</label>
+            <input type="text" id="mobile" name="mobile">
+            <button>Add another phone number</button>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+            <button>Add another email</button>
+          </div>
+          <div>
+            <label for="school">University</label>
+            <input type="text" id="school" name="school">
+            <label for="id-01">id#</label>
+            <input type="text" id="id-01" name="id-01">
+          </div>
+
+          <!-- use if another id number is needed
+          <div class="entity">
+            <label for="entity-01">Entity</label>
+            <input type="text" id="entity-01" name="entity-01">
+          </div>
+          <div class="entity-type" id="entity-type-01">
+            <label for="entity-type-01">Type of Entity</label>
+            <select id="entity-type-01" name="entity-type-01">
+              <option value="grad">Graduate School</option>
+              <option value="practicum">Practicum Site</option>
+            </select>
+          </div>
+        -->
+
           <button>Add another identification number</button>
           <div id="username"></div>
           <div id="password"></div>
