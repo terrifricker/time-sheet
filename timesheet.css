@@ -1,6 +1,6 @@
 :root {
-  --body_background: dodgerblue;
-  --form_background: chartreuse;
+  --body_background: rgb(260, 240, 240);
+  --form_background: rgb(220, 200, 200);
   --text_input: hotpink;
   --title_color: yellow;
   --border_color: red;
@@ -14,4 +14,28 @@ body {
   background-color: var(--body_background);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 18pt;
+}
+main {
+  width: 80vw;
+  height: 98vh;
+  margin: auto;
+}
+form {
+  width: 65vw;
+  margin: 10px auto;
+  background-color: var(--form_background);
+}
+fieldset {
+  border: none;
+  padding: 20px;
+}
+section div {
+  padding-bottom: 10px;
+}
+input {
+  padding: 3px;
+  font-size: 16pt;
+}
+label {
+  padding: 0 5px;
 }
