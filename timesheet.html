@@ -15,33 +15,43 @@
   </nav>
   <main>
     <div class="instructions">
-      <h1>Name of App</h1>
-      <p>Required fields are followed by <strong><abbr title="required">*</abbr></strong>.
-      </p>
+      <h1>Time Sheet</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste vel voluptas autem nemo, corrupti repellendus dolores illum atque tempore debitis facere voluptatum ab sit molestiae quis quibusdam temporibus nulla nam.</p>
     </div>
     <form class="identification" action="timesheet.js">
       <fieldset>
         <legend><h2>Personal Identification</h2></legend>
           <section>
             <div>
-              <label for="firstname">First Name</label>
-              <input type="text" id="firstname" name="firstname" size="15">
-              <label for="lastname">Last Name</label>
-              <input type="text" id="lastname" name="lastname" size="25">
+              <label for="firstname" class="firstname">First Name</label>
+              <input type="text" id="firstname" name="firstname"
+                placeholder="First name">
             </div>
             <div>
-              <label for="streetaddress">Street Address</label>
-              <input type="text" id="streetaddress" name="streetaddress" size="49">
+              <label for="lastname" class="lastname">Last Name</label>
+              <input type="text" id="lastname" name="lastname"
+               placeholder="Last name">
             </div>
             <div>
-              <label for="city">City</label>
-              <input type="text" id="city" name="city" size="23">
+              <label for="streetaddress" class="streetaddress">Street Address</label>
+              <input type="text" id="streetaddress" name="streetaddress"
+               placeholder="Street address">
+            </div>
+            <div>
+              <label for="city" class="city">City</label>
+              <input type="text" id="city" name="city"
+                placeholder="City">
+            </div>
+            <div>
               <label for="state">State</label>
-              <input type="text" id="state" name="state" size="4">
-              <label for="zip">Zip Code</label>
-              <input type="text" id="zip" name="zip" size="12">
-              <button title="Add another address">+</button>
+              <input type="text" id="state" name="state"
+                placeholder="State">
             </div>
+              <label for="zip">Zip Code</label>
+              <input type="text" id="zip" name="zip"
+                placeholder="Zip code">
+            </div>
+            <button title="Add another address">+</button>
             
             <div>
               <label for="mobile">Phone</label>
@@ -88,6 +98,6 @@
   <footer>
 
   </footer>
-  
+  <script src="timesheet.js"></script>
 </body>
 </html>
