@@ -35,7 +35,7 @@ section div {
 }
 label {
   display: block;
-  opacity: 0;
+  opacity: 100;
   font-size: 12pt;
   transition: opacity 5s linear;
 }
