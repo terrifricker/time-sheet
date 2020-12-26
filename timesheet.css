@@ -46,3 +46,6 @@ input {
   padding: 3px;
   font-size: 16pt;
 }
+input[type="radio"]~label {
+  display: inline;
+}
