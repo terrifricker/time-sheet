@@ -17,13 +17,15 @@ body {
   padding: 20px;
 }
 main {
-  width: 80vw;
+  width: 65vw;
   height: 98vh;
   margin: auto;
 }
 form {
-  width: 65vw;
+  width: 45vw;
   margin: 20px auto;
+  padding-top: 4vw;
+  padding-left: 10vw;
   background-color: var(--form_background);
 }
 fieldset {
